@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black_light"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        style="@style/toptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/app_name"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_fresh_news"
+        style="@style/toptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fresh_news"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_contacts"
+        style="@style/toptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="@string/contacts"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/ev_seach"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="4"
+        android:background="@color/white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:text="@string/search"
+        android:visibility="gone" />
+</LinearLayout>

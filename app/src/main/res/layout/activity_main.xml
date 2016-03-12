@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.MainActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tabs">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/tabs"
+        android:background="@color/white"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_school"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/school_select"
+
+            android:enabled="true"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="@string/school"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_cicle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/circle_select"
+            android:enabled="true"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="@string/cicle"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_find"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/find_select"
+            android:enabled="true"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="@string/find"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_profie"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/person_select"
+            android:enabled="true"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="@string/profile"
+            android:textSize="15sp" />
+    </LinearLayout>
+</RelativeLayout>

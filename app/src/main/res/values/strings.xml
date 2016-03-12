@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">大学</string>
+    <string name="school">校园</string>
+    <string name="cicle">圈子</string>
+    <string name="find">发现</string>
+    <string name="profile">我的</string>
+    <string name="inner_school">校内</string>
+    <string name="outside_school">周边</string>
+    <string name="notify">通知</string>
+    <string name="query">查询</string>
+    <string name="fresh_news">新鲜事</string>
+    <string name="subscribt">通讯录</string>
+    <string name="contacts">通讯录</string>
+    <string name="subscribe">订阅</string>
+    <string name="settings">设置</string>
+    <string name="搜索">string/search</string>
+    <string name="search">搜索</string>
+
+    <string name="mail">邮箱</string>
+    <string name="collect">收藏</string>
+    <string name="libary">图书馆</string>
+    <string name="game">游戏</string>
+    <string name="setting">设置</string>
+    <string name="shopping">购物</string>
+    <string name="drift_bottle">漂流瓶</string>
+    <string name="user_name">Monkey·D·Luffy</string>
+    <string name="profession">计算机科学与技术</string>
+    <string name="nearby_person">附近的人</string>
+    <string name="hot">热门事情</string>
+    <string name="pie">Pie Friends</string>
+    <string name="syllabus">课程表</string>
+    <string name="offices">教务处</string>
+    <string name="monney">缴费</string>
+
+</resources>
